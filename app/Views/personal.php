@@ -7,7 +7,7 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
-        <link rel="shortcut icon" type="image/png" href="<?=base_url('favicon.ico')?>">
+        <link rel="shortcut icon" type="image/png" href="<?=$base_url_lib?>/img/aviro-logo.png">
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,10 +46,11 @@
         <div class="container-fluid nav-section border-0">
             <nav class="navbar navbar-light">
                 <div class="navbar-nav flex-column">
-                    <a href="#pigraHome" class="nav-item nav-link active"><span class="fa fa-home"></span> Home</a>
+                    <a href="#pigraHome" class="nav-item nav-link active"><span class="far fa-address-card"></span> About</a>
                     <a href="#pigraAbout" class="nav-item nav-link d-none"><span class="far fa-address-card"></span> About</a>
-                    <a href="#pigraService" class="nav-item nav-link"><span class="fab fa-servicestack"></span> Service</a>
-                    <a href="#pigraBlog" class="nav-item nav-link"><span class="fa fa-blog"></span> Blog</a>
+                    <a href="#pigraEducation" class="nav-item nav-link"><span class="fas fa-graduation-cap"></span> Education</a>
+                    <a href="#pigraService" class="nav-item nav-link"><span class="fab fa-servicestack"></span> Services</a>
+                    <a href="#pigraWork" class="nav-item nav-link"><span class="fa fa-file-code"></span> Works</a>
                     <a href="#pigraContact" class="nav-item nav-link"><span class="fas fa-address-book"></span> Contact</a>
                 </div>
             </nav>
@@ -169,7 +170,7 @@
 
 
         <!-- Education Start -->
-        <div class="container-fluid">
+        <div class="container-fluid" id="pigraEducation">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-3">
@@ -259,10 +260,10 @@
                                             </div>
                                         </div>
                                         <h4 class="mb-3">Full Stack Developer</h4>
-                                        <p class="mb-0"><i class="fa fa-check me-2"></i> Full stack apps for Apartment management & collection</p>
-                                        <p class="mb-0"><i class="fa fa-check me-2"></i> Android Apps for inventory management tools</p>
-                                        <p class="mb-0"><i class="fa fa-check me-2"></i> Daily Attendance App using Flutter</p>
-                                        <p class="mb-0"><i class="fa fa-check me-2"></i> Custom CMS for Blog & Permission Management</p>
+                                        <p class="mb-0"><i class="fa fa-check me-2"></i> Gather requirements from clients to understand project goals and specifications</p>
+                                        <p class="mb-0"><i class="fa fa-check me-2"></i> Design and develop systems based on the gathered requirements, ensuring functional and technical feasibility</p>
+                                        <p class="mb-0"><i class="fa fa-check me-2"></i> Coordinate with the UI/UX team to implement responsive design for a seamless user experience</p>
+                                        <p class="mb-0"><i class="fa fa-check me-2"></i> Set up and configure staging and production servers for smooth deployment and testing</p>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -424,8 +425,7 @@
                                                 <a href="#" class="h4 mb-0">Web Development</a>
                                             </div>
                                             <div class="col-xl-4">
-                                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam repudiandae
-                                                </p>
+                                                <p class="mb-0">Mostly use PHP for web development such as e-Commerce, ERP, and Management Tools</p>
                                             </div>
                                             <div class="col-xl-3">
                                                 <p><i class="fa fa-check me-2"></i> Laravel</p>
@@ -445,14 +445,14 @@
                                                 <a href="#" class="h4 mb-0">Javascript</a>
                                             </div>
                                             <div class="col-xl-4">
-                                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam repudiandae
-                                                </p>
+                                                <p class="mb-0">Javascript as a Front End function to handle microservice function & to be more interactive web</p>
                                             </div>
                                             <div class="col-xl-3">
-                                                <p><i class="fa fa-check me-2"></i> Jquery</p>
                                                 <p><i class="fa fa-check me-2"></i> Node JS</p>
                                                 <p><i class="fa fa-check me-2"></i> Vue JS</p>
-                                                <p class="mb-0"><i class="fa fa-check me-2"></i> Angular JS</p>
+                                                <p><i class="fa fa-check me-2"></i> React JS</p>
+                                                <p><i class="fa fa-check me-2"></i> Angular JS</p>
+                                                <p class="mb-0"><i class="fa fa-check me-2"></i> Jquery</p>
                                             </div>
                                         </div>
                                     </div>
@@ -467,8 +467,7 @@
                                                 <a href="#" class="h4 mb-0">Mobile Application</a>
                                             </div>
                                             <div class="col-xl-4">
-                                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam repudiandae
-                                                </p>
+                                                <p class="mb-0">Focusing on Mobile Apps and always keep up with current technology.</p>
                                             </div>
                                             <div class="col-xl-3">
                                                 <p><i class="fa fa-check me-2"></i> Android Java</p>
@@ -487,8 +486,7 @@
                                                 <a href="#" class="h4 mb-0">Others</a>
                                             </div>
                                             <div class="col-xl-4">
-                                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam repudiandae
-                                                </p>
+                                                <p class="mb-0">Any technologies used to help improving the experience of the system</p>
                                             </div>
                                             <div class="col-xl-3">
                                                 <p><i class="fa fa-check me-2"></i> Git</p>
@@ -503,6 +501,10 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-12 d-none">
+                        <canvas id="experienceChart"></canvas>                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -510,7 +512,7 @@
 
 
         <!-- Portfolio Start -->
-        <div class="container-fluid d-none">
+        <div class="container-fluid" id="pigraWork">
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-3">
@@ -526,19 +528,79 @@
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="row g-4 align-items-center">
                                     <div class="col-xl-6">
-                                        <h4 class="text-body">Web Design</h4>
-                                        <h1 class="display-6 mb-0">Software Design for ABC Corporation</h1>
+                                        <h4 class="text-body">Sirclo Commerce (2021 - 2024)</h4>
+                                        <h1 class="display-6 mb-0">Omni Channel Management System</h1>
                                     </div>
                                     <div class="col-9 col-xl-4">
                                         <div class="portfolio-img">
                                             <div class="portfolio-img-inner">
-                                                <img src="<?=$base_url_lib?>/img/Portfolio-1.jpg" class="img-fluid" alt="Image">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/sirclo.png" class="img-fluid" alt="Image">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="img/Portfolio-1.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="Portfolio-1"><i class="fas fa-plus"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/sirclo.png" class="btn btn-primary btn-lg-square"  data-lightbox="Sirclo" data-title="A system designed to integrate popular marketplaces in Indonesia, providing comprehensive management of inventory, products, orders, and returns. It also seamlessly integrates with ERP systems such as Odoo and NetSuite. The platform supports hundreds of popular brands across various industries in Indonesia."><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">APIK PLN UPDK Barito (2020 - 2021)</h4>
+                                        <h1 class="display-6 mb-0">Working Tool Approval Management</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/apik.png" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="<?=$base_url_lib?>/img/portfolio/apik.png" class="btn btn-primary btn-lg-square"  data-lightbox="apik" data-title="Handling Approval Management for a Public Electrical Company in South Borneo involves recording all tasks along with the tools required for each job. Managers have the authority to approve or reject work plans if the proposed tools are deemed unsuitable for the task. The system works for both Mobile Apps & Web."><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Universitas Lambung Mangkurat (2020)</h4>
+                                        <h1 class="display-6 mb-0">Edupartnership Management System</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/edupartnership.png" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="<?=$base_url_lib?>/img/portfolio/edupartnership.png" class="btn btn-primary btn-lg-square"  data-lightbox="edupartnership" data-title="Managing partnerships between two instances for educational work at Universitas Lambung Mangkurat, including the creation of offering letters that can be validated or invalidated as needed. The letters can be exported in Word or PDF format."><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">PDAM HSS (2020)</h4>
+                                        <h1 class="display-6 mb-0">Daily Attendance & Tracking Management</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/pdamhss.png" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="<?=$base_url_lib?>/img/portfolio/pdamhss.png" class="btn btn-primary btn-lg-square"  data-lightbox="pdamhss" data-title="Employees perform specific tasks based on their roles and are required to capture a selfie and share their location as proof of attendance. Managers can approve or reject attendance submissions based on predefined rules. The system also supports offline mode to accommodate operations in remote areas."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -546,19 +608,99 @@
                             <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="row g-4 align-items-center">
                                     <div class="col-xl-6">
-                                        <h4 class="text-body">Web Development</h4>
-                                        <h1 class="display-6 mb-0">Website Development for ABC Corporation</h1>
+                                        <h4 class="text-body">PP-Property (2020)</h4>
+                                        <h1 class="display-6 mb-0">Risk Management System</h1>
                                     </div>
                                     <div class="col-9 col-xl-4">
                                         <div class="portfolio-img">
                                             <div class="portfolio-img-inner">
-                                                <img src="<?=$base_url_lib?>/img/portfolio-2.jpg" class="img-fluid" alt="Image">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/manrisk.png" class="img-fluid" alt="Image">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="img/portfolio-2.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="portfolio-2"><i class="fas fa-plus"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/manrisk.png" class="btn btn-primary btn-lg-square"  data-lightbox="manrisk" data-title="Risk Management system for a public property company that records potential issues based on identified risks and possible outcomes. The system can assess risk levels, generate reports, track mitigation actions, and alert stakeholders to critical issues. It also supports data analytics for forecasting potential risks and improving decision-making."><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Simarco (2019 - 2020)</h4>
+                                        <h1 class="display-6 mb-0">Apartment Purchasing & Collection Management</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/simarco.png" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="<?=$base_url_lib?>/img/portfolio/simarco.png" class="btn btn-primary btn-lg-square"  data-lightbox="simarco" data-title="Managing Apartment Purchases includes handling available stock, processing purchases, calculating installments, and signing contracts via mobile apps or the web. Customers receive notifications through email, SMS, or WhatsApp before the due date, along with reminders for penalties if payments are overdue."><i class="fas fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">PT PLN (Persero) UP2B Kalselteng (2020)</h4>
+                                        <h1 class="display-6 mb-0">Unit Performance Management System</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/sikap.png" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="<?=$base_url_lib?>/img/portfolio/sikap.png" class="btn btn-primary btn-lg-square"  data-lightbox="sikap" data-title="Managing unit transmission and transformers for a public electrical company in South and Central Borneo. Data is generated based on formulas provided by the company, allowing users to monitor issues in each unit."><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Baby Care Indonesia (2019)</h4>
+                                        <h1 class="display-6 mb-0">E-Commerce Platform for Baby and Toddler Products</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/babycare.png" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="<?=$base_url_lib?>/img/portfolio/babycare.png" class="btn btn-primary btn-lg-square"  data-lightbox="babycare" data-title="Developing an e-commerce system gor baby & toddler products. Aute calculate shipping & multiple payment options."><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Laboratorium Litbang Sabo (2019)</h4>
+                                        <h1 class="display-6 mb-0">Web Platform for Laboratorium Mecanical Testing</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/litbangsabo.png" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="<?=$base_url_lib?>/img/portfolio/litbangsabo.png" class="btn btn-primary btn-lg-square"  data-lightbox="litbangsabo" data-title="A comprehensive laboratory management system designed to test various building materials, including mechanical soil, hydraulic properties, and concrete. It supports the analysis and testing of materials related to construction, providing accurate results for quality assurance"><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -566,19 +708,19 @@
                             <div class="portfolio-item py-5 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="row g-4 align-items-center">
                                     <div class="col-xl-6">
-                                        <h4 class="text-body">Photography</h4>
-                                        <h1 class="display-6 mb-0">Security Analysis for ABC Corporation</h1>
+                                        <h4 class="text-body">Printerous.com (2015 - 2018)</h4>
+                                        <h1 class="display-6 mb-0">E-Commerce Platform for Art & Printing Product</h1>
                                     </div>
                                     <div class="col-9 col-xl-4">
                                         <div class="portfolio-img">
                                             <div class="portfolio-img-inner">
-                                                <img src="<?=$base_url_lib?>/img/portfolio-3.jpg" class="img-fluid" alt="Image">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/printerous.png" class="img-fluid" alt="Image">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="img/portfolio-3.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="portfolio-3"><i class="fas fa-plus"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/printerous.png" class="btn btn-primary btn-lg-square"  data-lightbox="printerous" data-title="Developing an e-commerce system that allows customers to design their desired printing products using image editors. The system offers a variety of templates for users to choose from. Printing media are available in different sizes, styles, and materials. The platform manages both customer and business needs."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -973,6 +1115,73 @@
 
         <!-- Template Javascript -->
         <script src="<?=$base_url_lib?>/js/main.js"></script>
+
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script>
+            const { createApp } = Vue;
+
+            createApp({
+              mounted() {
+                const ctx = document.getElementById('experienceChart').getContext('2d');
+                
+                new Chart(ctx, {
+                  type: 'line',
+                  data: {
+                    labels: ["PHP", "Java", "Mobile Apps", "JavaScript"],
+                    datasets: [
+                      {
+                        label: "Total Experience",
+                        backgroundColor: "rgba(75, 192, 192, 0.2)",
+                        borderColor: "rgba(75, 192, 192, 1)",
+                        data: [10, 5, 4, 8],
+                        tension: 0.2,
+                      },
+                      { label: "Laravel", backgroundColor: "rgba(153, 102, 255, 0.2)", borderColor: "rgba(153, 102, 255, 1)", data: [6, null, null, null], tension: 0.2 },
+                      { label: "CodeIgniter", backgroundColor: "rgba(255, 159, 64, 0.2)", borderColor: "rgba(255, 159, 64, 1)", data: [4, null, null, null], tension: 0.2 },
+                      { label: "Magento", backgroundColor: "rgba(54, 162, 235, 0.2)", borderColor: "rgba(54, 162, 235, 1)", data: [3.5, null, null, null], tension: 0.2 },
+                      { label: "Java EE", backgroundColor: "rgba(255, 206, 86, 0.2)", borderColor: "rgba(255, 206, 86, 1)", data: [null, 1, null, null], tension: 0.2 },
+                      { label: "Android Java", backgroundColor: "rgba(75, 192, 192, 0.2)", borderColor: "rgba(75, 192, 192, 1)", data: [null, 4, 4, null], tension: 0.2 },
+                      { label: "Flutter", backgroundColor: "rgba(255, 99, 132, 0.2)", borderColor: "rgba(255, 99, 132, 1)", data: [null, null, 1, null], tension: 0.2 },
+                      { label: "Node.js", backgroundColor: "rgba(54, 162, 235, 0.2)", borderColor: "rgba(54, 162, 235, 1)", data: [null, null, null, 2], tension: 0.2 },
+                      { label: "Angular", backgroundColor: "rgba(255, 206, 86, 0.2)", borderColor: "rgba(255, 206, 86, 1)", data: [null, null, null, 3], tension: 0.2 },
+                      { label: "Vue", backgroundColor: "rgba(153, 102, 255, 0.2)", borderColor: "rgba(153, 102, 255, 1)", data: [null, null, null, 2], tension: 0.2 },
+                      { label: "React", backgroundColor: "rgba(255, 159, 64, 0.2)", borderColor: "rgba(255, 159, 64, 1)", data: [null, null, null, 2], tension: 0.2 },
+                      { label: "jQuery", backgroundColor: "rgba(255, 99, 132, 0.2)", borderColor: "rgba(255, 99, 132, 1)", data: [null, null, null, 2], tension: 0.2 },
+                    ]
+                  },
+                  options: {
+                    responsive: true,
+                    plugins: {
+                      legend: {
+                        position: "top",
+                      },
+                      title: {
+                        display: true,
+                        text: "Experience in Programming Technologies by Category and Subcategory",
+                      }
+                    },
+                    scales: {
+                      y: {
+                        beginAtZero: true,
+                        title: {
+                          display: true,
+                          text: "Experience (Years)"
+                        }
+                      },
+                      x: {
+                        title: {
+                          display: true,
+                          text: "Technology Categories"
+                        }
+                      }
+                    }
+                  }
+                });
+              }
+            }).mount('#app');
+        </script>
     </body>
 
 </html>
