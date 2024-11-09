@@ -103,8 +103,8 @@
                                     <div class="d-flex">
                                         <a class="btn btn-primary btn-sm-square me-3" href="https://wa.me/6285645858204" target="_blank"><i class="fab fa-whatsapp text-white"></i></a>
                                         <a class="btn btn-primary btn-sm-square me-3" href="https://www.linkedin.com/in/aviroez" target="_blank"><i class="fab fa-linkedin-in text-white"></i></a>
-                                        <a class="btn btn-primary btn-sm-square me-3" href="https://www.facebook.com/aviroez" target="_blank"><i class="fab fa-facebook-f text-white"></i></a>
-                                        <a class="btn btn-primary btn-sm-square me-0" href="https://www.instagram.com/aviroez" target="_blank"><i class="fab fa-instagram text-white"></i></a>
+                                        <a class="btn btn-primary btn-sm-square me-3" href="https://www.github.com/aviroez" target="_blank"><i class="fab fa-github text-white"></i></a>
+                                        <a class="btn btn-primary btn-sm-square me-3" href="https://www.instagram.com/aviroez" target="_blank"><i class="fab fa-instagram text-white"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -540,7 +540,7 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/sirclo.png" class="btn btn-primary btn-lg-square"  data-lightbox="Sirclo" data-title="A system designed to integrate popular marketplaces in Indonesia, providing comprehensive management of inventory, products, orders, and returns. It also seamlessly integrates with ERP systems such as Odoo and NetSuite. The platform supports hundreds of popular brands across various industries in Indonesia."><i class="fas fa-eye"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/sirclo.png" class="btn btn-primary btn-lg-square" data-lightbox="Sirclo" data-title="A system designed to integrate popular marketplaces in Indonesia, providing comprehensive management of inventory, products, orders, and returns. It also seamlessly integrates with ERP systems such as Odoo and NetSuite. The platform supports hundreds of popular brands across various industries in Indonesia."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -560,7 +560,27 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/apik.png" class="btn btn-primary btn-lg-square"  data-lightbox="apik" data-title="Handling Approval Management for a Public Electrical Company in South Borneo involves recording all tasks along with the tools required for each job. Managers have the authority to approve or reject work plans if the proposed tools are deemed unsuitable for the task. The system works for both Mobile Apps & Web."><i class="fas fa-eye"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/apik.png" class="btn btn-primary btn-lg-square" data-lightbox="apik" data-title="Handling Approval Management for a Public Electrical Company in South Borneo involves recording all tasks along with the tools required for each job. Managers have the authority to approve or reject work plans if the proposed tools are deemed unsuitable for the task. The system works for both Mobile Apps & Web."><i class="fas fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">WoPA PLN PT Kalselteng (2020)</h4>
+                                        <h1 class="display-6 mb-0">Working Permit Approval Management</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="<?=$base_url_lib?>/img/portfolio/wopa.png" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="<?=$base_url_lib?>/img/portfolio/wopa.png" class="btn btn-primary btn-lg-square" data-lightbox="wopa" data-title="Handling working permit Management for a Public Electrical Company in South Borneo involves request working permit from internal / external organization. Manager can approve / reject the working permit. Any approved permission, will be exported to pdf as legal documents"><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -580,7 +600,7 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/edupartnership.png" class="btn btn-primary btn-lg-square"  data-lightbox="edupartnership" data-title="Managing partnerships between two instances for educational work at Universitas Lambung Mangkurat, including the creation of offering letters that can be validated or invalidated as needed. The letters can be exported in Word or PDF format."><i class="fas fa-eye"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/edupartnership.png" class="btn btn-primary btn-lg-square" data-lightbox="edupartnership" data-title="Managing partnerships between two instances for educational work at Universitas Lambung Mangkurat, including the creation of offering letters that can be validated or invalidated as needed. The letters can be exported in Word or PDF format."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -600,7 +620,7 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/pdamhss.png" class="btn btn-primary btn-lg-square"  data-lightbox="pdamhss" data-title="Employees perform specific tasks based on their roles and are required to capture a selfie and share their location as proof of attendance. Managers can approve or reject attendance submissions based on predefined rules. The system also supports offline mode to accommodate operations in remote areas."><i class="fas fa-eye"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/pdamhss.png" class="btn btn-primary btn-lg-square" data-lightbox="pdamhss" data-title="Employees perform specific tasks based on their roles and are required to capture a selfie and share their location as proof of attendance. Managers can approve or reject attendance submissions based on predefined rules. The system also supports offline mode to accommodate operations in remote areas."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -620,7 +640,7 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/manrisk.png" class="btn btn-primary btn-lg-square"  data-lightbox="manrisk" data-title="Risk Management system for a public property company that records potential issues based on identified risks and possible outcomes. The system can assess risk levels, generate reports, track mitigation actions, and alert stakeholders to critical issues. It also supports data analytics for forecasting potential risks and improving decision-making."><i class="fas fa-eye"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/manrisk.png" class="btn btn-primary btn-lg-square" data-lightbox="manrisk" data-title="Risk Management system for a public property company that records potential issues based on identified risks and possible outcomes. The system can assess risk levels, generate reports, track mitigation actions, and alert stakeholders to critical issues. It also supports data analytics for forecasting potential risks and improving decision-making."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -640,7 +660,7 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/simarco.png" class="btn btn-primary btn-lg-square"  data-lightbox="simarco" data-title="Managing Apartment Purchases includes handling available stock, processing purchases, calculating installments, and signing contracts via mobile apps or the web. Customers receive notifications through email, SMS, or WhatsApp before the due date, along with reminders for penalties if payments are overdue."><i class="fas fa-plus"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/simarco.png" class="btn btn-primary btn-lg-square" data-lightbox="simarco" data-title="Managing Apartment Purchases includes handling available stock, processing purchases, calculating installments, and signing contracts via mobile apps or the web. Customers receive notifications through email, SMS, or WhatsApp before the due date, along with reminders for penalties if payments are overdue."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -660,7 +680,7 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/sikap.png" class="btn btn-primary btn-lg-square"  data-lightbox="sikap" data-title="Managing unit transmission and transformers for a public electrical company in South and Central Borneo. Data is generated based on formulas provided by the company, allowing users to monitor issues in each unit."><i class="fas fa-eye"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/sikap.png" class="btn btn-primary btn-lg-square" data-lightbox="sikap" data-title="Managing unit transmission and transformers for a public electrical company in South and Central Borneo. Data is generated based on formulas provided by the company, allowing users to monitor issues in each unit."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -680,7 +700,7 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/babycare.png" class="btn btn-primary btn-lg-square"  data-lightbox="babycare" data-title="Developing an e-commerce system gor baby & toddler products. Aute calculate shipping & multiple payment options."><i class="fas fa-eye"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/babycare.png" class="btn btn-primary btn-lg-square" data-lightbox="babycare" data-title="Developing an e-commerce system gor baby & toddler products. Aute calculate shipping & multiple payment options."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -700,7 +720,7 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/litbangsabo.png" class="btn btn-primary btn-lg-square"  data-lightbox="litbangsabo" data-title="A comprehensive laboratory management system designed to test various building materials, including mechanical soil, hydraulic properties, and concrete. It supports the analysis and testing of materials related to construction, providing accurate results for quality assurance"><i class="fas fa-eye"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/litbangsabo.png" class="btn btn-primary btn-lg-square" data-lightbox="litbangsabo" data-title="A comprehensive laboratory management system designed to test various building materials, including mechanical soil, hydraulic properties, and concrete. It supports the analysis and testing of materials related to construction, providing accurate results for quality assurance"><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -720,7 +740,7 @@
                                     </div>
                                     <div class="col-3 col-xl-2">
                                         <div class="view-img">
-                                            <a href="<?=$base_url_lib?>/img/portfolio/printerous.png" class="btn btn-primary btn-lg-square"  data-lightbox="printerous" data-title="Developing an e-commerce system that allows customers to design their desired printing products using image editors. The system offers a variety of templates for users to choose from. Printing media are available in different sizes, styles, and materials. The platform manages both customer and business needs."><i class="fas fa-eye"></i></a>
+                                            <a href="<?=$base_url_lib?>/img/portfolio/printerous.png" class="btn btn-primary btn-lg-square" data-lightbox="printerous" data-title="Developing an e-commerce system that allows customers to design their desired printing products using image editors. The system offers a variety of templates for users to choose from. Printing media are available in different sizes, styles, and materials. The platform manages both customer and business needs."><i class="fas fa-eye"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1079,15 +1099,15 @@
                                     <div class="d-flex justify-content-center">
                                         <a class="btn btn-light btn-md-square me-3" href="https://wa.me/6285645858204" target="_blank"><i class="fab fa-whatsapp"></i></a>
                                         <a class="btn btn-light btn-md-square me-3" href="https://www.linkedin.com/in/aviroez" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="btn btn-light btn-md-square me-3" href="https://www.facebook.com/aviroez"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-light btn-md-square me-0" href="https://www.instagram.com/aviroez"><i class="fab fa-instagram"></i></a>
+                                        <a class="btn btn-light btn-md-square me-3" href="https://www.github.com/aviroez"><i class="fab fa-github"></i></a>
+                                        <a class="btn btn-light btn-md-square me-3" href="https://www.instagram.com/aviroez"><i class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
                                     <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-body me-2"></i>Aviroez</a>, All right reserved.</span>
                                 </div>
                                 <div class="col-12 text-center text-body">
-                                    Developed By <a class="border-bottom text-white" href="https://aviroez.com">Me</a>
+                                    Developed By <a class="border-bottom text-white" href="https://aviroez.com">Aviroez</a>
                                 </div>
                             </div>
                        </div>        
